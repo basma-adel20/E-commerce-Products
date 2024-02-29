@@ -1,13 +1,226 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color: #6944FF;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    font-family: var(--font-family) !important;
 }
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.product:hover
+{
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+    
+}
+.product .btn 
+{
+    transition: transform 1s , opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+.text-main-light
+{
+    color: var(--light-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+
+.vh-83{
+    min-height: 83vh;
+}
+
+
+.bordr{
+    border: 1px solid var(--main-color);
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+body {
+    background-image: url('Assets/images/light-patten.svg'); /* Specify the path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat:repeat; 
+    background-position: center center;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.categoryBordr{
+    border: 1px solid #0000002d;
+    border-radius: 6px;
+}
+
+.categoryItem{
+    transition: all 0.2s;
+}
+
+.categoryItem:hover{
+    box-shadow: 1px 1px 10px var(--main-color);
+}
+
+.categoryItem img {
+    object-fit: cover;
+}
+
+.my-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.to-red:hover{
+    color: red;
+}
+
+.fa-cart{
+    font-size: 30px;
+}
+
+.count-box{
+    
+    background-color: rgb(199, 97, 14);
+    top: -10px;
+    left: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;    
+    font-size: 14px;
+}
+
+.background-user{
+    background-image: url(Assets/images/new-york-twin-towers-wallpaper-.jpg);
+    background-position:bottom;
+    background-size: cover;
+    min-height: 400px;
+}
+
+
+.profile-card {
+    width: 100%;
+    min-height: 350px;
+    margin: auto;
+    box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+    background: #fff;
+    border-radius: 12px;
+    max-width: 700px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.wrapper{
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card img{
+    width: 160px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    transform: translateY(-50%);
+    object-fit:cover;
+    z-index: 4;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252), 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+
+    @media screen and (max-width: 576px) {
+      width: 120px;
+      height: 120px;
+    }
+}
+
+.profile-card__cnt{
+    margin-top: -50px;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 40px;
+    transition: all .3s;
+}
+  
+
+.profile-card__name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #6944ff;
+    margin-bottom: 15px;
+}
+
+.fw-sm{
+    font-size: 14px;
+}
+
+.footer p{
+    color: #abacab;
+}
+  
+.footer .copy{
+    font-size: 12px;
+}
+
+.profile{
+    width: 75%;
+}
+
+@media screen and (max-width: 990px) {
+    .profile{
+        width: 40px;
+    }
+  }
