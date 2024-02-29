@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Products/static/css/main.2816ab93.css",
+    "main.js": "/E-commerce-Products/static/js/main.3b8bb4a9.js",
+    "static/js/592.e5bdeb12.chunk.js": "/E-commerce-Products/static/js/592.e5bdeb12.chunk.js",
+    "static/media/light-patten.svg": "/E-commerce-Products/static/media/light-patten.ed706aff39a009de4e80.svg",
+    "static/media/new-york-twin-towers-wallpaper-.jpg": "/E-commerce-Products/static/media/new-york-twin-towers-wallpaper-.3471a88bb31a4a9eb40e.jpg",
+    "static/media/slider-2.jpeg": "/E-commerce-Products/static/media/slider-2.92200ddb54f84e0e8c71.jpeg",
+    "static/media/fa-solid-900.ttf": "/E-commerce-Products/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/grocery-banner.png": "/E-commerce-Products/static/media/grocery-banner.2c56649c9cbe2e19b86f.png",
+    "static/media/fa-brands-400.ttf": "/E-commerce-Products/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/slider-image-3.jpeg": "/E-commerce-Products/static/media/slider-image-3.7e5c9f7a513f6db6dd5e.jpeg",
+    "static/media/slider-image-2.jpeg": "/E-commerce-Products/static/media/slider-image-2.e510b0de8a4d96a1d5ad.jpeg",
+    "static/media/grocery-banner-2.jpeg": "/E-commerce-Products/static/media/grocery-banner-2.7a4a78a90acc3d5847cb.jpeg",
+    "static/media/fa-solid-900.woff2": "/E-commerce-Products/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/E-commerce-Products/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/about.jpg": "/E-commerce-Products/static/media/about.f9b3f748582dc66d931b.jpg",
+    "static/media/fa-regular-400.ttf": "/E-commerce-Products/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/fa-regular-400.woff2": "/E-commerce-Products/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/E-commerce-Products/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/freshcart-logo.svg": "/E-commerce-Products/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.woff2": "/E-commerce-Products/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "static/media/slick.svg": "/E-commerce-Products/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-commerce-Products/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-commerce-Products/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-commerce-Products/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-commerce-Products/index.html",
+    "main.2816ab93.css.map": "/E-commerce-Products/static/css/main.2816ab93.css.map",
+    "main.3b8bb4a9.js.map": "/E-commerce-Products/static/js/main.3b8bb4a9.js.map",
+    "592.e5bdeb12.chunk.js.map": "/E-commerce-Products/static/js/592.e5bdeb12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2816ab93.css",
+    "static/js/main.3b8bb4a9.js"
+  ]
+}
