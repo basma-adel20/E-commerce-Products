@@ -28,6 +28,7 @@ export default function App() {
     {path:'' ,element: <Layout/>, children :
       [
         {index:true , element:<ProtectedRoute><Home/></ProtectedRoute>},
+        {path:'E-commerce-Products/' , element:<ProtectedRoute><Home/></ProtectedRoute>},
         {path:'cart' , element:<ProtectedRoute><Cart/></ProtectedRoute>},
         {path:'allorders' , element:<ProtectedRoute><Home/> </ProtectedRoute>},
         {path:'/shippingaddress/:cartId' , element:<ProtectedRoute><ShippingAddress/> </ProtectedRoute>},
