@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-commerce-Products/static/css/main.2816ab93.css",
-    "main.js": "/E-commerce-Products/static/js/main.3b8bb4a9.js",
+    "main.js": "/E-commerce-Products/static/js/main.f3b8b609.js",
     "static/js/592.e5bdeb12.chunk.js": "/E-commerce-Products/static/js/592.e5bdeb12.chunk.js",
     "static/media/light-patten.svg": "/E-commerce-Products/static/media/light-patten.ed706aff39a009de4e80.svg",
     "static/media/new-york-twin-towers-wallpaper-.jpg": "/E-commerce-Products/static/media/new-york-twin-towers-wallpaper-.3471a88bb31a4a9eb40e.jpg",
@@ -26,11 +26,11 @@
     "static/media/slick.woff": "/E-commerce-Products/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/E-commerce-Products/index.html",
     "main.2816ab93.css.map": "/E-commerce-Products/static/css/main.2816ab93.css.map",
-    "main.3b8bb4a9.js.map": "/E-commerce-Products/static/js/main.3b8bb4a9.js.map",
+    "main.f3b8b609.js.map": "/E-commerce-Products/static/js/main.f3b8b609.js.map",
     "592.e5bdeb12.chunk.js.map": "/E-commerce-Products/static/js/592.e5bdeb12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2816ab93.css",
-    "static/js/main.3b8bb4a9.js"
+    "static/js/main.f3b8b609.js"
   ]
 }
