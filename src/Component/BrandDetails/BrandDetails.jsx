@@ -18,7 +18,7 @@ export default function BrandDetails(props) {
   console.log(data?.data);
 
   return <>
-    <h2 className='p-2 bg-body-secondary my-2 text-center'>Brand Detailss</h2>
+    <h2 className='p-2 bg-body-secondary my-2 text-center'>Brand Details</h2>
     {isLoading ?
      <div className="row justify-content-center align-items-center vh-100 ">
          <div className='text-center'>

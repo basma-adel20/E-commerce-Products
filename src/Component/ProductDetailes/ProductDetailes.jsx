@@ -36,7 +36,7 @@ export default function ProductDetailes() {
 
   return <>
 
-    <h2 className='p-2 bg-body-secondary my-2 text-center'>Product Detailes</h2>
+    <h2 className='p-2 bg-body-secondary my-2 text-center'>Product Details</h2>
     {loading ?
      <div className="row justify-content-center align-items-center vh-100 ">
          <div className='text-center'>
